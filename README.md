@@ -47,6 +47,7 @@ Nesting of loops refers to placing one loop inside another. The inner loop is ex
 Think of nested loops like a clock with seconds and minutes. For every minute that passes (outer loop), 60 seconds tick by (inner loop). In C/C++, a nested loop means you put one loop inside another to do repeated tasks in layers.
 
 -> Basic Idea
+
 1.The outer loop runs first.
 
 2.For each time the outer loop runs, the inner loop runs all its steps.
