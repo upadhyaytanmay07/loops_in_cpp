@@ -34,10 +34,15 @@ Nesting of loops refers to placing one loop inside another. The inner loop is ex
 The Logic and conditional flow of the statements were seen through the following programs :
 
 1.Printing even numbers from 1 to 10
+
 2.reversing of integer values
+
 3.login through password with lockout mechanism
+
 4.Patterns(Star Patterns, Floyd's series)
+
 5.printing a word multiple times
+
 6.alphabet pattern
 
 # Conclusion:
