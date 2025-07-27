@@ -395,3 +395,37 @@ Objective: Accept an integer input (e.g., a PRN or Roll number) and reverse its 
 
 Steps:
 
+1.Start the program
+
+2.Declare and initialize variables:
+
+n → to store the input number
+
+x → to hold the last digit of n
+
+s ← 0 → to hold the reversed number
+
+3.Prompt the user
+
+Display: “Enter your PRN/Roll number:”
+
+Read integer input into n
+
+4.Reverse the digits using a loop
+
+Repeat while n > 0:
+
+a.Calculate x ← n % 10 → extract the last digit
+
+b.Update s ← s * 10 + x → build the reversed number
+
+c.Update n ← n / 10 → remove the last digit from n
+
+5.Display the reversed number
+
+Output: s
+
+6.End the program
+
+# Program 11:
+Objective: 
