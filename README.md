@@ -191,3 +191,70 @@ After inner loop ends, print a newline to move to the next row
 4.End the Loop
 
 5.Terminate Program
+
+# Program 4:
+Objective: Print a centered reverse pyramid made of asterisks *, where the widest row is at the top and each subsequent row becomes narrower. Each row is centered using spaces.
+
+Steps:
+
+1.Start the program
+
+2.Initialize Variable
+
+rows ← 5 → this determines the total number of pyramid levels
+
+3.Loop to Create Each Row (Descending Order)
+
+Repeat the following steps for i from rows down to 1:
+
+-> Print Leading Spaces
+
+Run a loop from space = 0 to (rows - i - 1)
+
+Print a space " " to shift the stars right
+
+-> Print Stars
+
+Run another loop from star = 0 to (2 * i - 2)
+
+Print a star "*" in each iteration
+
+-> Print Newline
+
+After both loops, print a newline to move to the next row
+
+End Program
+
+# Program 5:
+Objective: Print a left-aligned pyramid of stars (*), but each row is right-shifted by adding leading spaces so it looks “flipped” toward the right margin.
+
+Steps:
+
+1.Start the program
+
+2.Initialize Variables
+
+n ← 5 → number of rows for the pyramid
+
+Declare loop control variables: i, j, k
+
+3.Loop through Rows
+
+For i from 1 to n, repeat:
+
+a. Print Spaces
+
+For k from n down to i, print a space " "
+
+This creates the rightward shifting effect
+
+b. Print Stars
+
+For j from 1 to i, print a star "*"
+
+c. Move to Next Line
+
+Print a newline to start the next row
+
+4.End Program
+
