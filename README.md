@@ -428,4 +428,27 @@ Output: s
 6.End the program
 
 # Program 11:
-Objective: 
+Objective: Print the word "SIT" exactly 5 times using a for loop.
+
+Steps:
+
+1.Start
+
+2.Declare a variable i for loop control.
+
+3.Set up a loop that:
+
+Starts with i = 1
+
+Runs while i < 6
+
+Increments i by 1 on each iteration
+
+4.Inside the loop, print "SIT" on a new line
+
+5.Repeat steps until loop ends
+
+6.End the program
+
+# Conclusion:
+We learnt the use of loops and created several programs using the For loop in C++.
