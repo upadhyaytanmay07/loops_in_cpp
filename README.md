@@ -68,5 +68,126 @@ The Logic and conditional flow of the statements were seen through the following
 
 6.alphabet pattern
 
-# Conclusion:
-Through the programs , The logic and operation of loops in C++ has been studied.
+# Algorithms:
+
+# Program 1:
+Objective: to print Floyds Series 
+
+Steps:
+
+1.Start the program
+
+2.Declare Variables
+
+3.i: Loop control for rows
+
+4.j: Loop control for printing numbers in each row
+
+5.num: An integer to store and print consecutive values (initialized to 1)
+
+6.Set Initial Values
+
+7.num ← 1
+
+8.Begin Outer Loop to handle rows
+
+8.For i from 1 to n (here, n = 4):
+
+9.Begin Inner Loop for each row’s numbers:
+
+10.For j from 1 to i:
+
+11.Print the value of num
+
+12.Increment num ← num + 1
+
+13.After the inner loop ends, print a newline to move to the next row
+
+14.End Outer Loop
+
+15.Terminate Program
+
+# Program 2:
+Objective: Allow the user to set a password and re-enter it for verification with a maximum of 3 attempts. Lock the system if the entered password is incorrect all three times.
+
+Steps: 
+
+1.Start the Program
+
+2.Declare Variables
+
+new_password (string): to store the password set by the user
+
+Password (string): to store the input for verification
+
+attempts (integer): initialized to 0, keeps track of incorrect tries
+
+maxAttempts (integer): set to 3, defines max allowed attempts
+
+3.Prompt User to Set Password
+
+Display: “Set your password:”
+
+Read input using getline() into new_password
+
+4.Begin Validation Loop
+
+Repeat the following steps while attempts < maxAttempts:
+
+Prompt user: “Enter your password again:”
+
+Read input into Password
+
+Compare Password with new_password:
+
+If they match:
+
+Display: “Password is correct.”
+
+Terminate program
+
+If they do not match:
+
+Increment attempts ← attempts + 1
+
+Check remaining attempts:
+
+If attempts < maxAttempts:
+
+Display: “Incorrect password. Attempts left: maxAttempts - attempts”
+
+Else:
+
+Display: “System locked due to too many failed attempts.”
+
+5.End Program
+
+# Program 3:
+
+Objective: Print a left-aligned pyramid of stars (*) with a total of n rows, where each row contains an increasing number of stars.
+
+Steps:
+
+1.Start the Program
+
+2.Declare and Initialize Variables
+
+i – to control the outer loop (tracks rows)
+
+j – to control the inner loop (tracks stars in each row)
+
+n – set to 5 (number of pyramid levels)
+
+3.Loop to Print Each Row (Outer Loop)
+
+Repeat steps for i from 1 to n:
+
+Print Stars in the Row (Inner Loop):
+
+For j from 1 to i, print a * without newline
+
+After inner loop ends, print a newline to move to the next row
+
+4.End the Loop
+
+5.Terminate Program
