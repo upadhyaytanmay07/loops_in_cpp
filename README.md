@@ -223,7 +223,7 @@ Print a star "*" in each iteration
 
 After both loops, print a newline to move to the next row
 
-End Program
+4.End Program
 
 # Program 5:
 Objective: Print a left-aligned pyramid of stars (*), but each row is right-shifted by adding leading spaces so it looks “flipped” toward the right margin.
@@ -257,4 +257,55 @@ c. Move to Next Line
 Print a newline to start the next row
 
 4.End Program
+
+# Program 6:
+Objective: Print a star (*) hourglass pattern consisting of a reversed pyramid followed by a normal pyramid aligned to form an hourglass shape.
+
+Steps:
+
+1.Start the program
+
+2.Declare and Initialize Variables
+
+rows ← 5: total number of rows
+
+n ← 5: total rows for bottom half of hourglass
+
+3.Print the Upper Half (Inverted Pyramid)
+
+Loop variable i from rows down to 1
+
+a.Print leading spaces:
+
+Loop space from 0 to rows - i - 1
+
+Output a space " "
+
+b.Print stars:
+
+Loop star from 0 to (2 * i - 2)
+
+Output a star "*"
+
+c.Print newline to start a new row
+
+4.Print the Lower Half (Upright Pyramid)
+
+Loop variable i from 2 to n
+
+a.Print leading spaces:
+
+Loop k from n down to i + 1
+
+Output a space " "
+
+b.Print stars:
+
+Loop j from 2 to 2 * i
+
+Output a star "*"
+
+c.Print newline to move to the next row
+
+5.End the program
 
