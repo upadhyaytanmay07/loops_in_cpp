@@ -309,3 +309,89 @@ c.Print newline to move to the next row
 
 5.End the program
 
+# Program 7:
+Objective: Generate a left-aligned pyramid where each row contains consecutive alphabet characters starting from 'A', increasing with each character printed.
+
+Steps:
+
+1.Start the Program
+
+2.Initialize Variables
+
+n ← 4 → number of rows to print
+
+ch ← 'A' → starting character in the ASCII sequence
+
+3.Loop Through Rows
+
+Use a loop where i goes from 1 to n:
+
+a.For each row i, use another loop where j goes from 1 to i:
+
+Print the current value of ch
+
+Increment ch to the next character (ch ← ch + 1)
+
+b.After the inner loop ends, print a newline to move to the next row
+
+4.End the Loop
+
+5.Terminate the Program
+
+# Program 8:
+Objective: Print all even numbers starting from 0 up to 10, incrementing by 2 in each step.
+
+Steps: 
+
+1.Start the Program
+
+2.Declare Variable
+
+num → an integer to hold the current number
+
+3.Initialize num to 0
+
+4.Loop Until num Reaches 11
+
+Repeat the following steps while num is less than 11:
+
+a.Print the value of num
+
+b.Increment num by 2 (num ← num + 2)
+
+5.Terminate the Program
+
+# Program 9:
+Objective: Print values of two counters: the outer loop runs twice, and for each outer loop iteration, the inner loop runs three times.
+
+Steps:
+
+1.Start the program
+
+2.Declare variables
+
+i: controls the outer loop
+
+j: controls the inner loop
+
+3.Outer Loop Execution
+
+Loop from i = 1 to 2 (inclusive)
+
+Display: Outer : i
+
+a.Inner Loop Execution
+
+For each i, loop j from 1 to 3 (inclusive)
+
+Display: Inner : j
+
+4.End all loops
+
+5.Terminate the program
+
+# Program 10:
+Objective: Accept an integer input (e.g., a PRN or Roll number) and reverse its digits to produce and display the reversed number.
+
+Steps:
+
